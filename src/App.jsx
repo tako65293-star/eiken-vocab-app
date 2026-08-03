@@ -1,8 +1,8 @@
 import { useState } from "react";
+import wordsData from "./data/words.json";
 import "./App.css";
 
-const unitModules = import.meta.glob("./data/*.json", { eager: true });
-const units = Object.values(unitModules).map((mod) => mod.default);
+const units = wordsData.units;
 
 const NOTES_KEY = "eiken-vocab-notes";
 
