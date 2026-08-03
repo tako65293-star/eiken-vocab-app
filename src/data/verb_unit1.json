@@ -1,0 +1,181 @@
+{
+  "_ai_handoff": {
+    "project": "英検準二級 単語練習アプリ(広告なし)",
+    "purpose_of_this_file": "unit単位(品詞・テーマ別)の単語マスターデータ。全ユーザー共通、アプリに同梱する読み取り専用データ。",
+    "schema": {
+      "word": "見出し語(英単語)",
+      "meaning_ja": "正しい日本語訳。4択問題では正解の選択肢として使う",
+      "example_en / example_ja": "例文。学習モード・自由記述モードのヒント表示に使用",
+      "distractors_ja": "4択問題用の誤答候補3つ。meaning_jaと紛らわしすぎず、簡単すぎない訳語を選ぶこと(似た品詞・似た文脈の語から選ぶと良い誤答になる)"
+    },
+    "id_convention": "{品詞略}_{連番3桁} 例: verb_001, adj_001, noun_001。unitをまたいで重複しないよう連番を管理する",
+    "status": "動詞1(verb_001〜verb_020)は人間によるレビュー・承認済み。以降のunit追加も同じ形式・同じ粒度で作成すること",
+    "important_do_not_mix": "このファイルには「ユーザーが追加する個人メモ・画像・音声」は含めない。それらはword idに紐づく別データ(例: userNotes: { wordId, memoText, imageUrl, createdAt })として端末側で別管理する設計方針。単語マスターデータとユーザー生成データを混在させないこと",
+    "audio_policy": "音声ファイルは同梱しない方針。読み上げは端末組み込みのTTS(Web: SpeechSynthesis / モバイル: OS標準の音声合成)でwordテキストから都度生成する",
+    "not_yet_covered": "文法解説コンテンツは別ファイルで管理予定。このファイルはあくまで単語データのみ"
+  },
+  "unit": "動詞1",
+  "part_of_speech": "verb",
+  "words": [
+    {
+      "id": "verb_001",
+      "word": "achieve",
+      "meaning_ja": "達成する",
+      "example_en": "She achieved her goal after years of hard work.",
+      "example_ja": "彼女は長年の努力の末に目標を達成した。",
+      "distractors_ja": ["延期する", "拒否する", "忘れる"]
+    },
+    {
+      "id": "verb_002",
+      "word": "borrow",
+      "meaning_ja": "借りる",
+      "example_en": "Can I borrow your pen for a minute?",
+      "example_ja": "ちょっとペンを貸してもらえますか。",
+      "distractors_ja": ["返す", "貸す", "買う"]
+    },
+    {
+      "id": "verb_003",
+      "word": "complain",
+      "meaning_ja": "不満を言う",
+      "example_en": "He complained about the noise from next door.",
+      "example_ja": "彼は隣からの騒音について不満を言った。",
+      "distractors_ja": ["感謝する", "説明する", "同意する"]
+    },
+    {
+      "id": "verb_004",
+      "word": "contain",
+      "meaning_ja": "含む",
+      "example_en": "This juice contains a lot of vitamin C.",
+      "example_ja": "このジュースにはビタミンCがたくさん含まれている。",
+      "distractors_ja": ["除去する", "交換する", "測定する"]
+    },
+    {
+      "id": "verb_005",
+      "word": "decide",
+      "meaning_ja": "決める",
+      "example_en": "We decided to travel to Okinawa next summer.",
+      "example_ja": "私たちは来年の夏に沖縄へ旅行することを決めた。",
+      "distractors_ja": ["迷う", "断る", "延期する"]
+    },
+    {
+      "id": "verb_006",
+      "word": "encourage",
+      "meaning_ja": "励ます、勇気づける",
+      "example_en": "Her teacher encouraged her to keep practicing.",
+      "example_ja": "先生は彼女に練習を続けるよう励ました。",
+      "distractors_ja": ["非難する", "無視する", "止める"]
+    },
+    {
+      "id": "verb_007",
+      "word": "escape",
+      "meaning_ja": "逃げる",
+      "example_en": "The bird escaped from its cage.",
+      "example_ja": "その鳥はかごから逃げた。",
+      "distractors_ja": ["捕まえる", "隠す", "戻る"]
+    },
+    {
+      "id": "verb_008",
+      "word": "examine",
+      "meaning_ja": "調べる、検査する",
+      "example_en": "The doctor examined the patient carefully.",
+      "example_ja": "医者は患者を注意深く検査した。",
+      "distractors_ja": ["治療する", "無視する", "紹介する"]
+    },
+    {
+      "id": "verb_009",
+      "word": "improve",
+      "meaning_ja": "改善する、上達する",
+      "example_en": "His English has improved a lot this year.",
+      "example_ja": "彼の英語は今年でとても上達した。",
+      "distractors_ja": ["悪化する", "維持する", "止まる"]
+    },
+    {
+      "id": "verb_010",
+      "word": "increase",
+      "meaning_ja": "増える、増やす",
+      "example_en": "The population of the city has increased rapidly.",
+      "example_ja": "その都市の人口は急速に増加した。",
+      "distractors_ja": ["減る", "変わらない", "止まる"]
+    },
+    {
+      "id": "verb_011",
+      "word": "introduce",
+      "meaning_ja": "紹介する",
+      "example_en": "Let me introduce my new colleague to you.",
+      "example_ja": "私の新しい同僚をあなたに紹介させてください。",
+      "distractors_ja": ["隠す", "批判する", "招待する"]
+    },
+    {
+      "id": "verb_012",
+      "word": "mention",
+      "meaning_ja": "言及する",
+      "example_en": "She didn't mention the accident at all.",
+      "example_ja": "彼女はその事故について全く触れなかった。",
+      "distractors_ja": ["解決する", "調査する", "証明する"]
+    },
+    {
+      "id": "verb_013",
+      "word": "notice",
+      "meaning_ja": "気づく",
+      "example_en": "I noticed a small change in his behavior.",
+      "example_ja": "私は彼の行動にわずかな変化があることに気づいた。",
+      "distractors_ja": ["忘れる", "計画する", "予測する"]
+    },
+    {
+      "id": "verb_014",
+      "word": "prevent",
+      "meaning_ja": "防ぐ",
+      "example_en": "Regular exercise can prevent many diseases.",
+      "example_ja": "定期的な運動は多くの病気を防ぐことができる。",
+      "distractors_ja": ["治療する", "引き起こす", "発見する"]
+    },
+    {
+      "id": "verb_015",
+      "word": "provide",
+      "meaning_ja": "提供する",
+      "example_en": "The hotel provides free breakfast for guests.",
+      "example_ja": "そのホテルは宿泊客に無料の朝食を提供している。",
+      "distractors_ja": ["要求する", "拒否する", "販売する"]
+    },
+    {
+      "id": "verb_016",
+      "word": "recognize",
+      "meaning_ja": "見分ける、認識する",
+      "example_en": "I almost didn't recognize him with his new haircut.",
+      "example_ja": "新しい髪型のせいで、私は彼のことがほとんどわからなかった。",
+      "distractors_ja": ["無視する", "評価する", "紹介する"]
+    },
+    {
+      "id": "verb_017",
+      "word": "reduce",
+      "meaning_ja": "減らす",
+      "example_en": "We should reduce the amount of plastic waste.",
+      "example_ja": "私たちはプラスチックごみの量を減らすべきだ。",
+      "distractors_ja": ["増やす", "回収する", "再利用する"]
+    },
+    {
+      "id": "verb_018",
+      "word": "repair",
+      "meaning_ja": "修理する",
+      "example_en": "It took two days to repair the broken bike.",
+      "example_ja": "壊れた自転車を修理するのに2日かかった。",
+      "distractors_ja": ["購入する", "捨てる", "貸す"]
+    },
+    {
+      "id": "verb_019",
+      "word": "require",
+      "meaning_ja": "必要とする",
+      "example_en": "This job requires good communication skills.",
+      "example_ja": "この仕事には優れたコミュニケーション能力が必要だ。",
+      "distractors_ja": ["提供する", "禁止する", "許可する"]
+    },
+    {
+      "id": "verb_020",
+      "word": "suggest",
+      "meaning_ja": "提案する",
+      "example_en": "My friend suggested going to the new cafe.",
+      "example_ja": "友人は新しいカフェに行くことを提案した。",
+      "distractors_ja": ["禁止する", "拒否する", "延期する"]
+    }
+  ]
+}
