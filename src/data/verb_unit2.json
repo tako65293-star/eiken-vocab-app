@@ -1,0 +1,40 @@
+{
+  "_ai_handoff": {
+    "project": "英検準二級 単語練習アプリ(広告なし)",
+    "purpose_of_this_file": "unit単位(品詞・テーマ別)の単語マスターデータ。全ユーザー共通、アプリに同梱する読み取り専用データ。",
+    "schema": {
+      "word": "見出し語(英単語)",
+      "meaning_ja": "正しい日本語訳。4択問題では正解の選択肢として使う",
+      "example_en / example_ja": "例文",
+      "distractors_ja": "4択問題用の誤答候補3つ"
+    },
+    "id_convention": "{品詞略}_{連番3桁}。unitをまたいで重複しないよう連番を管理する",
+    "status": "動詞2(verb_021〜verb_040)は人間によるレビュー・承認済み",
+    "important_do_not_mix": "このファイルには個人メモ・画像・音声は含めない(それらはブラウザのlocalStorageで別管理)",
+    "audio_policy": "音声ファイルは同梱しない。TTS(SpeechSynthesis)でwordから都度生成する"
+  },
+  "unit": "動詞2",
+  "part_of_speech": "verb",
+  "words": [
+    {"id":"verb_021","word":"apologize","meaning_ja":"謝る","example_en":"He apologized for being late to the meeting.","example_ja":"彼は会議に遅れたことを謝った。","distractors_ja":["感謝する","説明する","拒否する"]},
+    {"id":"verb_022","word":"arrange","meaning_ja":"手配する、並べる","example_en":"She arranged a meeting with the new client.","example_ja":"彼女は新しい顧客との打ち合わせを手配した。","distractors_ja":["キャンセルする","延期する","無視する"]},
+    {"id":"verb_023","word":"avoid","meaning_ja":"避ける","example_en":"We should avoid using too much plastic.","example_ja":"私たちはプラスチックを使いすぎないようにするべきだ。","distractors_ja":["集める","選ぶ","増やす"]},
+    {"id":"verb_024","word":"celebrate","meaning_ja":"祝う","example_en":"They celebrated their team's victory together.","example_ja":"彼らはチームの勝利を一緒に祝った。","distractors_ja":["準備する","記録する","発表する"]},
+    {"id":"verb_025","word":"collect","meaning_ja":"集める","example_en":"He collects old coins as a hobby.","example_ja":"彼は趣味で古いコインを集めている。","distractors_ja":["捨てる","分ける","売る"]},
+    {"id":"verb_026","word":"compare","meaning_ja":"比較する","example_en":"Let's compare the two plans before deciding.","example_ja":"決める前に2つのプランを比較しましょう。","distractors_ja":["組み合わせる","選ぶ","説明する"]},
+    {"id":"verb_027","word":"continue","meaning_ja":"続ける","example_en":"She continued studying even after the exam.","example_ja":"彼女は試験の後も勉強を続けた。","distractors_ja":["やめる","始める","忘れる"]},
+    {"id":"verb_028","word":"deliver","meaning_ja":"配達する","example_en":"The company delivers packages within two days.","example_ja":"その会社は2日以内に荷物を配達する。","distractors_ja":["受け取る","保管する","注文する"]},
+    {"id":"verb_029","word":"discover","meaning_ja":"発見する","example_en":"Scientists discovered a new type of insect.","example_ja":"科学者たちは新種の昆虫を発見した。","distractors_ja":["失う","隠す","予測する"]},
+    {"id":"verb_030","word":"employ","meaning_ja":"雇う","example_en":"The factory employs about 200 workers.","example_ja":"その工場は約200人の労働者を雇っている。","distractors_ja":["解雇する","訓練する","評価する"]},
+    {"id":"verb_031","word":"explain","meaning_ja":"説明する","example_en":"Could you explain how this machine works?","example_ja":"この機械の仕組みを説明してもらえますか。","distractors_ja":["修理する","発明する","隠す"]},
+    {"id":"verb_032","word":"imagine","meaning_ja":"想像する","example_en":"It's hard to imagine life without smartphones.","example_ja":"スマートフォンのない生活を想像するのは難しい。","distractors_ja":["記憶する","説明する","計画する"]},
+    {"id":"verb_033","word":"invent","meaning_ja":"発明する","example_en":"Who invented the telephone?","example_ja":"誰が電話を発明したのですか。","distractors_ja":["修理する","発見する","所有する"]},
+    {"id":"verb_034","word":"lend","meaning_ja":"貸す","example_en":"Could you lend me some money until Friday?","example_ja":"金曜日までお金を貸してもらえますか。","distractors_ja":["借りる","返す","払う"]},
+    {"id":"verb_035","word":"promise","meaning_ja":"約束する","example_en":"He promised to call her back later.","example_ja":"彼は後で彼女に電話をかけ直すと約束した。","distractors_ja":["断る","疑う","忘れる"]},
+    {"id":"verb_036","word":"protect","meaning_ja":"守る、保護する","example_en":"This cream protects your skin from the sun.","example_ja":"このクリームは日光から肌を守る。","distractors_ja":["傷つける","洗う","隠す"]},
+    {"id":"verb_037","word":"receive","meaning_ja":"受け取る","example_en":"I received a letter from my old friend.","example_ja":"私は昔の友人から手紙を受け取った。","distractors_ja":["送る","書く","失う"]},
+    {"id":"verb_038","word":"recommend","meaning_ja":"勧める","example_en":"My doctor recommended more exercise.","example_ja":"私の医者はもっと運動することを勧めた。","distractors_ja":["禁止する","疑う","無視する"]},
+    {"id":"verb_039","word":"remove","meaning_ja":"取り除く","example_en":"Please remove your shoes before entering.","example_ja":"入る前に靴を脱いでください。","distractors_ja":["加える","洗う","並べる"]},
+    {"id":"verb_040","word":"share","meaning_ja":"共有する、分け合う","example_en":"The kids shared their snacks with each other.","example_ja":"子どもたちはお互いにおやつを分け合った。","distractors_ja":["独占する","隠す","捨てる"]}
+  ]
+}
