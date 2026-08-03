@@ -1,8 +1,6 @@
 import { useState } from "react";
 import "./App.css";
 
-// src/data フォルダ内のjsonファイルを自動で全部読み込む
-// 新しいunitを追加するときは、このフォルダにjsonファイルを置くだけでOK(このファイルの編集は不要)
 const unitModules = import.meta.glob("./data/*.json", { eager: true });
 const units = Object.values(unitModules).map((mod) => mod.default);
 
@@ -37,7 +35,7 @@ function shuffle(arr) {
 
 function App() {
   const [selectedUnit, setSelectedUnit] = useState(null);
-  const [mode, setMode] = useState("list"); // list | quiz-menu | quiz
+  const [mode, setMode] = useState("list");
   const [quizType, setQuizType] = useState(null);
 
   const openUnit = (u) => {
@@ -259,17 +257,22 @@ function Quiz({ unit, quizType, onBack, onFinish }) {
   const isCorrectFree =
     checked && quizType === "free" &&
     textAnswer.trim().toLowerCase() === q.answer.toLowerCase();
+  const showResult = checked;
+  const wasCorrect = quizType === "free" ? isCorrectFree : isCorrectChoice;
 
   return (
-    <div className="quiz">
-      <button className="back-btn" onClick={onBack}>← 小テストメニューへ</button>
-      <p className="quiz-progress">{index + 1} / {questions.length}</p>
-      <div className="quiz-prompt">{q.prompt}</div>
+    <div className="quiz quiz-fullscreen">
+      <div className="quiz-top">
+        <button className="back-btn" onClick={onBack}>← 小テストメニューへ</button>
+        <p className="quiz-progress">{index + 1} / {questions.length}</p>
+      </div>
+
+      <div className="quiz-prompt-big">{q.prompt}</div>
 
       {quizType !== "free" ? (
-        <div className="choice-list">
+        <div className="choice-list-big">
           {q.choices.map((c) => {
-            let cls = "choice-btn";
+            let cls = "choice-btn-big";
             if (checked) {
               if (c === q.answer) cls += " correct";
               else if (c === selected) cls += " wrong";
@@ -282,29 +285,34 @@ function Quiz({ unit, quizType, onBack, onFinish }) {
           })}
         </div>
       ) : (
-        <div className="free-answer">
+        <div className="free-answer-big">
           <input
             type="text"
             value={textAnswer}
             disabled={checked}
             onChange={(e) => setTextAnswer(e.target.value)}
             placeholder="英単語を入力"
+            autoFocus
           />
           {!checked && (
             <button className="quiz-btn" onClick={() => setChecked(true)}>答え合わせ</button>
           )}
-          {checked && (
-            <p className={isCorrectFree ? "result-ok" : "result-ng"}>
-              {isCorrectFree ? "正解!" : `不正解。正解は "${q.answer}"`}
-            </p>
-          )}
+        </div>
+      )}
+
+      {showResult && (
+        <div className={"result-banner " + (wasCorrect ? "result-banner-ok" : "result-banner-ng")}>
+          <span className="result-icon">{wasCorrect ? "◯" : "✕"}</span>
+          <span className="result-text">
+            {wasCorrect ? "正解!" : `不正解 正解: ${q.answer}`}
+          </span>
         </div>
       )}
 
       {checked && (
         <button
-          className="quiz-btn next-btn"
-          onClick={() => goNext(quizType === "free" ? isCorrectFree : isCorrectChoice, q.word)}
+          className="quiz-btn next-btn-big"
+          onClick={() => goNext(wasCorrect, q.word)}
         >
           {isLast ? "結果を見る" : "次の問題へ"}
         </button>
