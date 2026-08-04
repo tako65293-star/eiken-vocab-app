@@ -10,7 +10,7 @@
       "distractors_ja": "4択問題用の誤答候補3つ"
     },
     "id_convention": "{品詞略}_{連番3桁}。全unit通してIDが重複しないよう連番管理する",
-    "status": "合計400語。直近追加分(動詞5・名詞5-6・形容詞5-6・副詞3)は未承認、それ以前は承認済み",
+    "status": "合計520語。直近追加分(動詞6・名詞7-8・形容詞7-8・副詞4)は未承認、それ以前は承認済み。verb_006とverb_098でencourageが重複しているため要修正",
     "important_do_not_mix": "このファイルには個人メモ・画像・音声は含めない(それらはブラウザのlocalStorageで別管理)",
     "audio_policy": "音声ファイルは同梱しない。TTS(SpeechSynthesis)でwordから都度生成する",
     "update_policy": "単語を追加するときは、この words.json ファイル全体を新しい内容で置き換える"
@@ -4932,6 +4932,1482 @@
             "非効率に",
             "曖昧に",
             "急いで"
+          ]
+        }
+      ]
+    },
+    {
+      "unit": "動詞6",
+      "part_of_speech": "verb",
+      "words": [
+        {
+          "id": "verb_101",
+          "word": "exist",
+          "meaning_ja": "存在する",
+          "example_en": "Life is believed to exist on very few planets.",
+          "example_ja": "生命はごくわずかな惑星にしか存在しないと考えられている。",
+          "distractors_ja": [
+            "消える",
+            "変化する",
+            "移動する"
+          ]
+        },
+        {
+          "id": "verb_102",
+          "word": "expect",
+          "meaning_ja": "予期する、期待する",
+          "example_en": "We expect the results to arrive next week.",
+          "example_ja": "私たちは来週結果が届くと予期している。",
+          "distractors_ja": [
+            "拒否する",
+            "忘れる",
+            "疑う"
+          ]
+        },
+        {
+          "id": "verb_103",
+          "word": "experience",
+          "meaning_ja": "経験する",
+          "example_en": "She experienced many difficulties while living abroad.",
+          "example_ja": "彼女は海外生活中に多くの困難を経験した。",
+          "distractors_ja": [
+            "避ける",
+            "予測する",
+            "計画する"
+          ]
+        },
+        {
+          "id": "verb_104",
+          "word": "explore",
+          "meaning_ja": "探検する",
+          "example_en": "They explored the old castle together.",
+          "example_ja": "彼らは一緒にその古い城を探検した。",
+          "distractors_ja": [
+            "無視する",
+            "壊す",
+            "説明する"
+          ]
+        },
+        {
+          "id": "verb_105",
+          "word": "express",
+          "meaning_ja": "表現する",
+          "example_en": "It's important to express your feelings honestly.",
+          "example_ja": "自分の気持ちを正直に表現することは大切だ。",
+          "distractors_ja": [
+            "隠す",
+            "疑う",
+            "忘れる"
+          ]
+        },
+        {
+          "id": "verb_106",
+          "word": "fail",
+          "meaning_ja": "失敗する",
+          "example_en": "He failed the driving test twice.",
+          "example_ja": "彼は運転免許試験に2回失敗した。",
+          "distractors_ja": [
+            "成功する",
+            "合格する",
+            "改善する"
+          ]
+        },
+        {
+          "id": "verb_107",
+          "word": "fasten",
+          "meaning_ja": "固定する、締める",
+          "example_en": "Please fasten your seatbelt before takeoff.",
+          "example_ja": "離陸前にシートベルトを締めてください。",
+          "distractors_ja": [
+            "緩める",
+            "外す",
+            "壊す"
+          ]
+        },
+        {
+          "id": "verb_108",
+          "word": "fix",
+          "meaning_ja": "修理する",
+          "example_en": "He fixed the broken chair by himself.",
+          "example_ja": "彼は壊れた椅子を自分で修理した。",
+          "distractors_ja": [
+            "壊す",
+            "捨てる",
+            "売る"
+          ]
+        },
+        {
+          "id": "verb_109",
+          "word": "focus",
+          "meaning_ja": "集中する",
+          "example_en": "Try to focus on one task at a time.",
+          "example_ja": "一度に一つの作業に集中するようにしてください。",
+          "distractors_ja": [
+            "無視する",
+            "急ぐ",
+            "休む"
+          ]
+        },
+        {
+          "id": "verb_110",
+          "word": "forgive",
+          "meaning_ja": "許す",
+          "example_en": "She forgave her brother for the mistake.",
+          "example_ja": "彼女は弟の間違いを許した。",
+          "distractors_ja": [
+            "責める",
+            "疑う",
+            "無視する"
+          ]
+        },
+        {
+          "id": "verb_111",
+          "word": "gather",
+          "meaning_ja": "集まる、集める",
+          "example_en": "The whole family gathered for the holiday.",
+          "example_ja": "家族全員が休日のために集まった。",
+          "distractors_ja": [
+            "散らばる",
+            "分ける",
+            "隠れる"
+          ]
+        },
+        {
+          "id": "verb_112",
+          "word": "glance",
+          "meaning_ja": "ちらっと見る",
+          "example_en": "She glanced at her watch during the meeting.",
+          "example_ja": "彼女は会議中に時計をちらっと見た。",
+          "distractors_ja": [
+            "じっと見つめる",
+            "無視する",
+            "隠す"
+          ]
+        },
+        {
+          "id": "verb_113",
+          "word": "grow",
+          "meaning_ja": "成長する、育てる",
+          "example_en": "This plant grows quickly in sunlight.",
+          "example_ja": "この植物は日光の下で速く成長する。",
+          "distractors_ja": [
+            "縮む",
+            "枯れる",
+            "止まる"
+          ]
+        },
+        {
+          "id": "verb_114",
+          "word": "guess",
+          "meaning_ja": "推測する",
+          "example_en": "Can you guess how old she is?",
+          "example_ja": "彼女が何歳か推測できますか。",
+          "distractors_ja": [
+            "確認する",
+            "証明する",
+            "計算する"
+          ]
+        },
+        {
+          "id": "verb_115",
+          "word": "handle",
+          "meaning_ja": "扱う、対処する",
+          "example_en": "She handled the difficult situation calmly.",
+          "example_ja": "彼女はその難しい状況を冷静に対処した。",
+          "distractors_ja": [
+            "無視する",
+            "拒否する",
+            "隠す"
+          ]
+        },
+        {
+          "id": "verb_116",
+          "word": "hang",
+          "meaning_ja": "掛ける、ぶら下がる",
+          "example_en": "He hung the picture on the wall.",
+          "example_ja": "彼はその絵を壁に掛けた。",
+          "distractors_ja": [
+            "外す",
+            "壊す",
+            "落とす"
+          ]
+        },
+        {
+          "id": "verb_117",
+          "word": "hate",
+          "meaning_ja": "嫌う",
+          "example_en": "She hates waiting in long lines.",
+          "example_ja": "彼女は長い列で待つのが嫌いだ。",
+          "distractors_ja": [
+            "好む",
+            "無視する",
+            "許す"
+          ]
+        },
+        {
+          "id": "verb_118",
+          "word": "heal",
+          "meaning_ja": "治る、癒す",
+          "example_en": "The wound healed within a week.",
+          "example_ja": "その傷は1週間以内に治った。",
+          "distractors_ja": [
+            "悪化する",
+            "広がる",
+            "感染する"
+          ]
+        },
+        {
+          "id": "verb_119",
+          "word": "hesitate",
+          "meaning_ja": "ためらう",
+          "example_en": "Don't hesitate to ask if you have questions.",
+          "example_ja": "質問があればためらわずに聞いてください。",
+          "distractors_ja": [
+            "決断する",
+            "急ぐ",
+            "拒否する"
+          ]
+        },
+        {
+          "id": "verb_120",
+          "word": "hire",
+          "meaning_ja": "雇う",
+          "example_en": "The company plans to hire ten new employees.",
+          "example_ja": "その会社は新入社員を10人雇う予定だ。",
+          "distractors_ja": [
+            "解雇する",
+            "訓練する",
+            "昇進させる"
+          ]
+        }
+      ]
+    },
+    {
+      "unit": "名詞7",
+      "part_of_speech": "noun",
+      "words": [
+        {
+          "id": "noun_121",
+          "word": "appearance",
+          "meaning_ja": "外見、出現",
+          "example_en": "Her appearance had changed a lot since college.",
+          "example_ja": "彼女の外見は大学の頃からずいぶん変わった。",
+          "distractors_ja": [
+            "性格",
+            "習慣",
+            "経歴"
+          ]
+        },
+        {
+          "id": "noun_122",
+          "word": "application",
+          "meaning_ja": "申込み、応用",
+          "example_en": "You need to submit an application by Friday.",
+          "example_ja": "金曜日までに申込書を提出する必要がある。",
+          "distractors_ja": [
+            "契約",
+            "招待",
+            "許可"
+          ]
+        },
+        {
+          "id": "noun_123",
+          "word": "approval",
+          "meaning_ja": "承認",
+          "example_en": "The project received final approval from the board.",
+          "example_ja": "そのプロジェクトは取締役会から最終承認を受けた。",
+          "distractors_ja": [
+            "拒否",
+            "延期",
+            "疑い"
+          ]
+        },
+        {
+          "id": "noun_124",
+          "word": "argument",
+          "meaning_ja": "議論、口論",
+          "example_en": "They had a heated argument about the budget.",
+          "example_ja": "彼らは予算について激しい議論をした。",
+          "distractors_ja": [
+            "合意",
+            "計画",
+            "説明"
+          ]
+        },
+        {
+          "id": "noun_125",
+          "word": "arrival",
+          "meaning_ja": "到着",
+          "example_en": "Please wait here until my arrival.",
+          "example_ja": "私が到着するまでここで待っていてください。",
+          "distractors_ja": [
+            "出発",
+            "延期",
+            "予定"
+          ]
+        },
+        {
+          "id": "noun_126",
+          "word": "article",
+          "meaning_ja": "記事",
+          "example_en": "I read an interesting article about space travel.",
+          "example_ja": "宇宙旅行についての興味深い記事を読んだ。",
+          "distractors_ja": [
+            "広告",
+            "手紙",
+            "契約"
+          ]
+        },
+        {
+          "id": "noun_127",
+          "word": "aspect",
+          "meaning_ja": "側面",
+          "example_en": "There are many aspects to consider before deciding.",
+          "example_ja": "決める前に考慮すべき側面が多くある。",
+          "distractors_ja": [
+            "結果",
+            "目的",
+            "方法"
+          ]
+        },
+        {
+          "id": "noun_128",
+          "word": "assignment",
+          "meaning_ja": "課題",
+          "example_en": "The teacher gave us a difficult assignment.",
+          "example_ja": "先生は私たちに難しい課題を出した。",
+          "distractors_ja": [
+            "休憩",
+            "許可",
+            "習慣"
+          ]
+        },
+        {
+          "id": "noun_129",
+          "word": "assistance",
+          "meaning_ja": "支援",
+          "example_en": "Thank you for your assistance with the project.",
+          "example_ja": "そのプロジェクトでの支援に感謝します。",
+          "distractors_ja": [
+            "拒否",
+            "批判",
+            "疑い"
+          ]
+        },
+        {
+          "id": "noun_130",
+          "word": "attitude",
+          "meaning_ja": "態度",
+          "example_en": "His positive attitude helped the whole team.",
+          "example_ja": "彼の前向きな態度がチーム全体を助けた。",
+          "distractors_ja": [
+            "外見",
+            "経歴",
+            "習慣"
+          ]
+        },
+        {
+          "id": "noun_131",
+          "word": "audience",
+          "meaning_ja": "聴衆",
+          "example_en": "The audience clapped loudly after the performance.",
+          "example_ja": "聴衆は公演の後大きな拍手をした。",
+          "distractors_ja": [
+            "観客席",
+            "チーム",
+            "委員会"
+          ]
+        },
+        {
+          "id": "noun_132",
+          "word": "author",
+          "meaning_ja": "著者",
+          "example_en": "The author signed copies of her new book.",
+          "example_ja": "その著者は新しい本にサインをした。",
+          "distractors_ja": [
+            "編集者",
+            "読者",
+            "出版社"
+          ]
+        },
+        {
+          "id": "noun_133",
+          "word": "awareness",
+          "meaning_ja": "意識、自覚",
+          "example_en": "The campaign raised awareness about recycling.",
+          "example_ja": "そのキャンペーンはリサイクルについての意識を高めた。",
+          "distractors_ja": [
+            "知識",
+            "興味",
+            "義務"
+          ]
+        },
+        {
+          "id": "noun_134",
+          "word": "background",
+          "meaning_ja": "背景",
+          "example_en": "She has a strong background in mathematics.",
+          "example_ja": "彼女は数学の強い背景を持っている。",
+          "distractors_ja": [
+            "結果",
+            "目的",
+            "計画"
+          ]
+        },
+        {
+          "id": "noun_135",
+          "word": "balance",
+          "meaning_ja": "バランス、残高",
+          "example_en": "It's important to keep a balance between work and rest.",
+          "example_ja": "仕事と休息のバランスを保つことが大切だ。",
+          "distractors_ja": [
+            "差",
+            "合計",
+            "割合"
+          ]
+        },
+        {
+          "id": "noun_136",
+          "word": "bargain",
+          "meaning_ja": "お買い得品、取引",
+          "example_en": "She found a real bargain at the sale.",
+          "example_ja": "彼女はセールで本当にお買い得な品を見つけた。",
+          "distractors_ja": [
+            "損失",
+            "契約",
+            "税金"
+          ]
+        },
+        {
+          "id": "noun_137",
+          "word": "barrier",
+          "meaning_ja": "障壁",
+          "example_en": "Language can be a barrier to communication.",
+          "example_ja": "言語はコミュニケーションの障壁になることがある。",
+          "distractors_ja": [
+            "架け橋",
+            "道",
+            "手段"
+          ]
+        },
+        {
+          "id": "noun_138",
+          "word": "battle",
+          "meaning_ja": "戦い",
+          "example_en": "The company faced a tough battle against its rivals.",
+          "example_ja": "その会社はライバルとの厳しい戦いに直面した。",
+          "distractors_ja": [
+            "休戦",
+            "合意",
+            "会議"
+          ]
+        },
+        {
+          "id": "noun_139",
+          "word": "belief",
+          "meaning_ja": "信念",
+          "example_en": "It's her belief that hard work always pays off.",
+          "example_ja": "努力は必ず報われるというのが彼女の信念だ。",
+          "distractors_ja": [
+            "疑い",
+            "事実",
+            "習慣"
+          ]
+        },
+        {
+          "id": "noun_140",
+          "word": "boundary",
+          "meaning_ja": "境界",
+          "example_en": "The river forms a natural boundary between the two countries.",
+          "example_ja": "その川は2国間の自然の境界を形成している。",
+          "distractors_ja": [
+            "中心",
+            "距離",
+            "面積"
+          ]
+        }
+      ]
+    },
+    {
+      "unit": "名詞8",
+      "part_of_speech": "noun",
+      "words": [
+        {
+          "id": "noun_141",
+          "word": "budget",
+          "meaning_ja": "予算",
+          "example_en": "The city cut the budget for public parks.",
+          "example_ja": "市は公共公園の予算を削減した。",
+          "distractors_ja": [
+            "収入",
+            "税金",
+            "貯金"
+          ]
+        },
+        {
+          "id": "noun_142",
+          "word": "campaign",
+          "meaning_ja": "キャンペーン",
+          "example_en": "The company launched a new advertising campaign.",
+          "example_ja": "その会社は新しい広告キャンペーンを始めた。",
+          "distractors_ja": [
+            "契約",
+            "調査",
+            "会議"
+          ]
+        },
+        {
+          "id": "noun_143",
+          "word": "candidate",
+          "meaning_ja": "候補者",
+          "example_en": "There are three candidates for the position.",
+          "example_ja": "その職には3人の候補者がいる。",
+          "distractors_ja": [
+            "従業員",
+            "上司",
+            "顧客"
+          ]
+        },
+        {
+          "id": "noun_144",
+          "word": "capacity",
+          "meaning_ja": "収容能力",
+          "example_en": "The stadium has a capacity of 50,000 people.",
+          "example_ja": "そのスタジアムは5万人の収容能力がある。",
+          "distractors_ja": [
+            "面積",
+            "距離",
+            "重さ"
+          ]
+        },
+        {
+          "id": "noun_145",
+          "word": "category",
+          "meaning_ja": "カテゴリー",
+          "example_en": "This book falls into the fiction category.",
+          "example_ja": "この本はフィクションのカテゴリーに入る。",
+          "distractors_ja": [
+            "結果",
+            "目的",
+            "方法"
+          ]
+        },
+        {
+          "id": "noun_146",
+          "word": "chance",
+          "meaning_ja": "機会、可能性",
+          "example_en": "She missed her chance to travel abroad.",
+          "example_ja": "彼女は海外旅行の機会を逃した。",
+          "distractors_ja": [
+            "義務",
+            "習慣",
+            "結果"
+          ]
+        },
+        {
+          "id": "noun_147",
+          "word": "chart",
+          "meaning_ja": "図表",
+          "example_en": "The chart shows sales over the past five years.",
+          "example_ja": "その図表は過去5年間の売上を示している。",
+          "distractors_ja": [
+            "契約",
+            "報告書",
+            "手紙"
+          ]
+        },
+        {
+          "id": "noun_148",
+          "word": "circumstance",
+          "meaning_ja": "状況",
+          "example_en": "Under normal circumstances, the trip takes two hours.",
+          "example_ja": "通常の状況では、その旅は2時間かかる。",
+          "distractors_ja": [
+            "結果",
+            "目的",
+            "義務"
+          ]
+        },
+        {
+          "id": "noun_149",
+          "word": "citizen",
+          "meaning_ja": "市民",
+          "example_en": "Every citizen has the right to vote.",
+          "example_ja": "すべての市民は投票する権利を持つ。",
+          "distractors_ja": [
+            "旅行者",
+            "従業員",
+            "学生"
+          ]
+        },
+        {
+          "id": "noun_150",
+          "word": "civilization",
+          "meaning_ja": "文明",
+          "example_en": "Ancient civilizations built impressive monuments.",
+          "example_ja": "古代文明は印象的な記念碑を建てた。",
+          "distractors_ja": [
+            "国",
+            "都市",
+            "地域"
+          ]
+        },
+        {
+          "id": "noun_151",
+          "word": "clue",
+          "meaning_ja": "手がかり",
+          "example_en": "The detective found an important clue at the scene.",
+          "example_ja": "探偵は現場で重要な手がかりを見つけた。",
+          "distractors_ja": [
+            "証拠品",
+            "結果",
+            "疑問"
+          ]
+        },
+        {
+          "id": "noun_152",
+          "word": "collection",
+          "meaning_ja": "収集、コレクション",
+          "example_en": "He has a large collection of old coins.",
+          "example_ja": "彼は古いコインの大きなコレクションを持っている。",
+          "distractors_ja": [
+            "寄付",
+            "貸し出し",
+            "販売"
+          ]
+        },
+        {
+          "id": "noun_153",
+          "word": "colleague",
+          "meaning_ja": "同僚",
+          "example_en": "She discussed the project with her colleagues.",
+          "example_ja": "彼女はそのプロジェクトについて同僚と話し合った。",
+          "distractors_ja": [
+            "上司",
+            "顧客",
+            "家族"
+          ]
+        },
+        {
+          "id": "noun_154",
+          "word": "combination",
+          "meaning_ja": "組み合わせ",
+          "example_en": "The dish is a combination of sweet and spicy flavors.",
+          "example_ja": "その料理は甘さと辛さの組み合わせだ。",
+          "distractors_ja": [
+            "違い",
+            "分離",
+            "対立"
+          ]
+        },
+        {
+          "id": "noun_155",
+          "word": "comfort",
+          "meaning_ja": "快適さ、安らぎ",
+          "example_en": "The soft chair gave her great comfort.",
+          "example_ja": "その柔らかい椅子は彼女に大きな快適さを与えた。",
+          "distractors_ja": [
+            "痛み",
+            "危険",
+            "緊張"
+          ]
+        },
+        {
+          "id": "noun_156",
+          "word": "commitment",
+          "meaning_ja": "約束、献身",
+          "example_en": "He showed great commitment to the team.",
+          "example_ja": "彼はチームへの大きな献身を示した。",
+          "distractors_ja": [
+            "無関心",
+            "疑い",
+            "拒否"
+          ]
+        },
+        {
+          "id": "noun_157",
+          "word": "committee",
+          "meaning_ja": "委員会",
+          "example_en": "The committee will meet next Tuesday.",
+          "example_ja": "その委員会は次の火曜日に会合を持つ。",
+          "distractors_ja": [
+            "個人",
+            "団体戦",
+            "契約"
+          ]
+        },
+        {
+          "id": "noun_158",
+          "word": "comparison",
+          "meaning_ja": "比較",
+          "example_en": "In comparison to last year, sales have improved.",
+          "example_ja": "去年と比較すると、売上は改善している。",
+          "distractors_ja": [
+            "結果",
+            "目的",
+            "方法"
+          ]
+        },
+        {
+          "id": "noun_159",
+          "word": "complaint",
+          "meaning_ja": "苦情",
+          "example_en": "The hotel received several complaints about the noise.",
+          "example_ja": "そのホテルは騒音についていくつかの苦情を受けた。",
+          "distractors_ja": [
+            "賛辞",
+            "提案",
+            "感謝"
+          ]
+        },
+        {
+          "id": "noun_160",
+          "word": "concept",
+          "meaning_ja": "概念",
+          "example_en": "The concept of time is different in each culture.",
+          "example_ja": "時間の概念はそれぞれの文化で異なる。",
+          "distractors_ja": [
+            "結果",
+            "事実",
+            "習慣"
+          ]
+        }
+      ]
+    },
+    {
+      "unit": "形容詞7",
+      "part_of_speech": "adjective",
+      "words": [
+        {
+          "id": "adj_121",
+          "word": "faithful",
+          "meaning_ja": "忠実な",
+          "example_en": "The dog was faithful to its owner for years.",
+          "example_ja": "その犬は何年も飼い主に忠実だった。",
+          "distractors_ja": [
+            "裏切りの",
+            "無関心な",
+            "怠惰な"
+          ]
+        },
+        {
+          "id": "adj_122",
+          "word": "fair",
+          "meaning_ja": "公平な",
+          "example_en": "The teacher was fair to all the students.",
+          "example_ja": "その先生は全ての生徒に公平だった。",
+          "distractors_ja": [
+            "不公平な",
+            "厳しい",
+            "曖昧な"
+          ]
+        },
+        {
+          "id": "adj_123",
+          "word": "fake",
+          "meaning_ja": "偽の",
+          "example_en": "She bought a fake watch at the market.",
+          "example_ja": "彼女は市場で偽の時計を買った。",
+          "distractors_ja": [
+            "本物の",
+            "高価な",
+            "珍しい"
+          ]
+        },
+        {
+          "id": "adj_124",
+          "word": "fantastic",
+          "meaning_ja": "素晴らしい",
+          "example_en": "We had a fantastic time at the beach.",
+          "example_ja": "私たちはビーチで素晴らしい時間を過ごした。",
+          "distractors_ja": [
+            "ひどい",
+            "退屈な",
+            "普通の"
+          ]
+        },
+        {
+          "id": "adj_125",
+          "word": "fascinating",
+          "meaning_ja": "魅力的な、興味をそそる",
+          "example_en": "The lecture on space was fascinating.",
+          "example_ja": "宇宙についての講義は魅力的だった。",
+          "distractors_ja": [
+            "退屈な",
+            "簡単な",
+            "普通の"
+          ]
+        },
+        {
+          "id": "adj_126",
+          "word": "fierce",
+          "meaning_ja": "激しい、獰猛な",
+          "example_en": "The two teams had a fierce competition.",
+          "example_ja": "その2チームは激しい競争をした。",
+          "distractors_ja": [
+            "穏やかな",
+            "退屈な",
+            "静かな"
+          ]
+        },
+        {
+          "id": "adj_127",
+          "word": "firm",
+          "meaning_ja": "しっかりした、断固とした",
+          "example_en": "She gave a firm answer to the question.",
+          "example_ja": "彼女はその質問にしっかりとした答えをした。",
+          "distractors_ja": [
+            "曖昧な",
+            "弱い",
+            "不確かな"
+          ]
+        },
+        {
+          "id": "adj_128",
+          "word": "flexible",
+          "meaning_ja": "柔軟な",
+          "example_en": "This job offers flexible working hours.",
+          "example_ja": "この仕事は柔軟な勤務時間を提供している。",
+          "distractors_ja": [
+            "厳格な",
+            "固定の",
+            "複雑な"
+          ]
+        },
+        {
+          "id": "adj_129",
+          "word": "fond",
+          "meaning_ja": "好きな",
+          "example_en": "She is very fond of classical music.",
+          "example_ja": "彼女はクラシック音楽がとても好きだ。",
+          "distractors_ja": [
+            "嫌いな",
+            "無関心な",
+            "退屈した"
+          ]
+        },
+        {
+          "id": "adj_130",
+          "word": "foolish",
+          "meaning_ja": "愚かな",
+          "example_en": "It was foolish of him to spend all his money.",
+          "example_ja": "全てのお金を使ってしまうとは彼は愚かだった。",
+          "distractors_ja": [
+            "賢い",
+            "慎重な",
+            "冷静な"
+          ]
+        },
+        {
+          "id": "adj_131",
+          "word": "fortunate",
+          "meaning_ja": "幸運な",
+          "example_en": "We were fortunate to get good seats.",
+          "example_ja": "私たちは良い席を取れて幸運だった。",
+          "distractors_ja": [
+            "不運な",
+            "疲れた",
+            "退屈な"
+          ]
+        },
+        {
+          "id": "adj_132",
+          "word": "fragile",
+          "meaning_ja": "壊れやすい",
+          "example_en": "Please handle the glass carefully, it's fragile.",
+          "example_ja": "そのガラスは壊れやすいので慎重に扱ってください。",
+          "distractors_ja": [
+            "丈夫な",
+            "重い",
+            "安全な"
+          ]
+        },
+        {
+          "id": "adj_133",
+          "word": "frank",
+          "meaning_ja": "率直な",
+          "example_en": "He gave a frank opinion about the plan.",
+          "example_ja": "彼はその計画について率直な意見を述べた。",
+          "distractors_ja": [
+            "曖昧な",
+            "礼儀正しい",
+            "秘密の"
+          ]
+        },
+        {
+          "id": "adj_134",
+          "word": "free",
+          "meaning_ja": "自由な、無料の",
+          "example_en": "Admission to the museum is free on Sundays.",
+          "example_ja": "その博物館の入場料は日曜日は無料だ。",
+          "distractors_ja": [
+            "有料の",
+            "限定の",
+            "禁止された"
+          ]
+        },
+        {
+          "id": "adj_135",
+          "word": "frequent",
+          "meaning_ja": "頻繁な",
+          "example_en": "There are frequent buses to the city center.",
+          "example_ja": "市の中心部への頻繁なバスがある。",
+          "distractors_ja": [
+            "まれな",
+            "定期的でない",
+            "遅い"
+          ]
+        },
+        {
+          "id": "adj_136",
+          "word": "friendly",
+          "meaning_ja": "友好的な",
+          "example_en": "The staff at the hotel were very friendly.",
+          "example_ja": "そのホテルのスタッフはとても友好的だった。",
+          "distractors_ja": [
+            "冷たい",
+            "無礼な",
+            "疑い深い"
+          ]
+        },
+        {
+          "id": "adj_137",
+          "word": "frightened",
+          "meaning_ja": "怖がった",
+          "example_en": "The child was frightened by the loud noise.",
+          "example_ja": "その子供は大きな音に怖がった。",
+          "distractors_ja": [
+            "落ち着いた",
+            "興奮した",
+            "退屈した"
+          ]
+        },
+        {
+          "id": "adj_138",
+          "word": "frozen",
+          "meaning_ja": "凍った",
+          "example_en": "The lake was completely frozen in winter.",
+          "example_ja": "その湖は冬に完全に凍った。",
+          "distractors_ja": [
+            "溶けた",
+            "温かい",
+            "乾いた"
+          ]
+        },
+        {
+          "id": "adj_139",
+          "word": "funny",
+          "meaning_ja": "面白い、おかしい",
+          "example_en": "He told a funny story at dinner.",
+          "example_ja": "彼は夕食時に面白い話をした。",
+          "distractors_ja": [
+            "退屈な",
+            "悲しい",
+            "深刻な"
+          ]
+        },
+        {
+          "id": "adj_140",
+          "word": "gentle",
+          "meaning_ja": "優しい",
+          "example_en": "She spoke to the child in a gentle voice.",
+          "example_ja": "彼女はその子供に優しい声で話しかけた。",
+          "distractors_ja": [
+            "荒々しい",
+            "厳しい",
+            "冷たい"
+          ]
+        }
+      ]
+    },
+    {
+      "unit": "形容詞8",
+      "part_of_speech": "adjective",
+      "words": [
+        {
+          "id": "adj_141",
+          "word": "genuine",
+          "meaning_ja": "本物の、誠実な",
+          "example_en": "Her smile was genuine and warm.",
+          "example_ja": "彼女の笑顔は本物で温かかった。",
+          "distractors_ja": [
+            "偽の",
+            "冷たい",
+            "疑わしい"
+          ]
+        },
+        {
+          "id": "adj_142",
+          "word": "gifted",
+          "meaning_ja": "才能のある",
+          "example_en": "He is a gifted painter.",
+          "example_ja": "彼は才能のある画家だ。",
+          "distractors_ja": [
+            "未熟な",
+            "退屈な",
+            "普通の"
+          ]
+        },
+        {
+          "id": "adj_143",
+          "word": "glad",
+          "meaning_ja": "嬉しい",
+          "example_en": "I'm glad you could come to the party.",
+          "example_ja": "パーティーに来てくれて嬉しいです。",
+          "distractors_ja": [
+            "悲しい",
+            "退屈した",
+            "怒った"
+          ]
+        },
+        {
+          "id": "adj_144",
+          "word": "gorgeous",
+          "meaning_ja": "とても美しい",
+          "example_en": "She wore a gorgeous dress to the wedding.",
+          "example_ja": "彼女は結婚式にとても美しいドレスを着ていった。",
+          "distractors_ja": [
+            "地味な",
+            "普通の",
+            "古い"
+          ]
+        },
+        {
+          "id": "adj_145",
+          "word": "graceful",
+          "meaning_ja": "優雅な",
+          "example_en": "The dancer moved in a graceful way.",
+          "example_ja": "そのダンサーは優雅な動きをした。",
+          "distractors_ja": [
+            "ぎこちない",
+            "乱暴な",
+            "遅い"
+          ]
+        },
+        {
+          "id": "adj_146",
+          "word": "grand",
+          "meaning_ja": "壮大な",
+          "example_en": "The palace has a grand entrance.",
+          "example_ja": "その宮殿には壮大な入口がある。",
+          "distractors_ja": [
+            "質素な",
+            "小さな",
+            "普通の"
+          ]
+        },
+        {
+          "id": "adj_147",
+          "word": "greedy",
+          "meaning_ja": "欲深い",
+          "example_en": "The greedy businessman refused to share the profit.",
+          "example_ja": "その欲深い実業家は利益を分け合うことを拒んだ。",
+          "distractors_ja": [
+            "寛大な",
+            "親切な",
+            "満足した"
+          ]
+        },
+        {
+          "id": "adj_148",
+          "word": "grim",
+          "meaning_ja": "厳しい、暗い",
+          "example_en": "The news brought a grim outlook for the company.",
+          "example_ja": "その知らせは会社に厳しい見通しをもたらした。",
+          "distractors_ja": [
+            "明るい",
+            "希望に満ちた",
+            "楽観的な"
+          ]
+        },
+        {
+          "id": "adj_149",
+          "word": "guilty",
+          "meaning_ja": "有罪の、罪悪感のある",
+          "example_en": "He felt guilty about lying to his friend.",
+          "example_ja": "彼は友人に嘘をついたことに罪悪感を感じた。",
+          "distractors_ja": [
+            "無実の",
+            "誇りに思った",
+            "満足した"
+          ]
+        },
+        {
+          "id": "adj_150",
+          "word": "handy",
+          "meaning_ja": "便利な",
+          "example_en": "This small tool is very handy for repairs.",
+          "example_ja": "この小さな道具は修理にとても便利だ。",
+          "distractors_ja": [
+            "不便な",
+            "危険な",
+            "複雑な"
+          ]
+        },
+        {
+          "id": "adj_151",
+          "word": "harsh",
+          "meaning_ja": "厳しい、過酷な",
+          "example_en": "The winter climate here is very harsh.",
+          "example_ja": "ここの冬の気候はとても厳しい。",
+          "distractors_ja": [
+            "穏やかな",
+            "快適な",
+            "温暖な"
+          ]
+        },
+        {
+          "id": "adj_152",
+          "word": "hollow",
+          "meaning_ja": "中が空の",
+          "example_en": "The tree trunk was completely hollow inside.",
+          "example_ja": "その木の幹は内部が完全に空洞だった。",
+          "distractors_ja": [
+            "詰まった",
+            "頑丈な",
+            "重い"
+          ]
+        },
+        {
+          "id": "adj_153",
+          "word": "honorable",
+          "meaning_ja": "立派な、名誉ある",
+          "example_en": "He made an honorable decision to admit his mistake.",
+          "example_ja": "彼は自分の間違いを認めるという立派な決断をした。",
+          "distractors_ja": [
+            "恥ずべき",
+            "臆病な",
+            "無責任な"
+          ]
+        },
+        {
+          "id": "adj_154",
+          "word": "hopeful",
+          "meaning_ja": "希望に満ちた",
+          "example_en": "She remains hopeful about her recovery.",
+          "example_ja": "彼女は回復について希望を持ち続けている。",
+          "distractors_ja": [
+            "絶望した",
+            "無関心な",
+            "疑い深い"
+          ]
+        },
+        {
+          "id": "adj_155",
+          "word": "horrible",
+          "meaning_ja": "ひどい、恐ろしい",
+          "example_en": "The weather was horrible during our trip.",
+          "example_ja": "私たちの旅行中、天気はひどかった。",
+          "distractors_ja": [
+            "素晴らしい",
+            "快適な",
+            "普通の"
+          ]
+        },
+        {
+          "id": "adj_156",
+          "word": "humble",
+          "meaning_ja": "謙虚な",
+          "example_en": "Despite his success, he remained humble.",
+          "example_ja": "成功したにもかかわらず、彼は謙虚なままだった。",
+          "distractors_ja": [
+            "傲慢な",
+            "自信過剰な",
+            "無礼な"
+          ]
+        },
+        {
+          "id": "adj_157",
+          "word": "hungry",
+          "meaning_ja": "空腹の",
+          "example_en": "The children were hungry after playing outside.",
+          "example_ja": "子どもたちは外で遊んだ後空腹だった。",
+          "distractors_ja": [
+            "満腹の",
+            "眠い",
+            "疲れた"
+          ]
+        },
+        {
+          "id": "adj_158",
+          "word": "ideal",
+          "meaning_ja": "理想的な",
+          "example_en": "This apartment is ideal for a small family.",
+          "example_ja": "このアパートは小さな家族に理想的だ。",
+          "distractors_ja": [
+            "不適切な",
+            "危険な",
+            "珍しい"
+          ]
+        },
+        {
+          "id": "adj_159",
+          "word": "identical",
+          "meaning_ja": "全く同じの",
+          "example_en": "The twins wore identical outfits.",
+          "example_ja": "その双子は全く同じ服装をしていた。",
+          "distractors_ja": [
+            "異なる",
+            "似ていない",
+            "対照的な"
+          ]
+        },
+        {
+          "id": "adj_160",
+          "word": "ignorant",
+          "meaning_ja": "無知な",
+          "example_en": "He was ignorant of the new company policy.",
+          "example_ja": "彼はその新しい会社の方針について無知だった。",
+          "distractors_ja": [
+            "詳しい",
+            "熟練した",
+            "経験豊富な"
+          ]
+        }
+      ]
+    },
+    {
+      "unit": "副詞4",
+      "part_of_speech": "adverb",
+      "words": [
+        {
+          "id": "adv_061",
+          "word": "efficiently",
+          "meaning_ja": "効率的に",
+          "example_en": "She completed the task efficiently.",
+          "example_ja": "彼女はその作業を効率的に終わらせた。",
+          "distractors_ja": [
+            "非効率に",
+            "急いで",
+            "適当に"
+          ]
+        },
+        {
+          "id": "adv_062",
+          "word": "entirely",
+          "meaning_ja": "完全に",
+          "example_en": "The decision is entirely up to you.",
+          "example_ja": "その決定は完全にあなた次第だ。",
+          "distractors_ja": [
+            "部分的に",
+            "決して",
+            "たまに"
+          ]
+        },
+        {
+          "id": "adv_063",
+          "word": "equally",
+          "meaning_ja": "等しく",
+          "example_en": "The prize money was divided equally among the team.",
+          "example_ja": "賞金はチームの間で等しく分けられた。",
+          "distractors_ja": [
+            "不平等に",
+            "たまに",
+            "偶然に"
+          ]
+        },
+        {
+          "id": "adv_064",
+          "word": "especially",
+          "meaning_ja": "特に",
+          "example_en": "I enjoy fruit, especially strawberries.",
+          "example_ja": "私は果物、特にイチゴが好きだ。",
+          "distractors_ja": [
+            "一般的に",
+            "決して",
+            "偶然に"
+          ]
+        },
+        {
+          "id": "adv_065",
+          "word": "essentially",
+          "meaning_ja": "本質的に",
+          "example_en": "The two plans are essentially the same.",
+          "example_ja": "その2つの計画は本質的に同じだ。",
+          "distractors_ja": [
+            "表面的に",
+            "全く異なって",
+            "偶然に"
+          ]
+        },
+        {
+          "id": "adv_066",
+          "word": "exclusively",
+          "meaning_ja": "もっぱら、独占的に",
+          "example_en": "This offer is available exclusively to members.",
+          "example_ja": "この特典は会員のみに利用できる。",
+          "distractors_ja": [
+            "一般的に",
+            "たまに",
+            "決して"
+          ]
+        },
+        {
+          "id": "adv_067",
+          "word": "faithfully",
+          "meaning_ja": "忠実に",
+          "example_en": "He followed the instructions faithfully.",
+          "example_ja": "彼はその指示に忠実に従った。",
+          "distractors_ja": [
+            "いい加減に",
+            "無視して",
+            "反抗的に"
+          ]
+        },
+        {
+          "id": "adv_068",
+          "word": "fairly",
+          "meaning_ja": "かなり、公平に",
+          "example_en": "The test was fairly difficult.",
+          "example_ja": "そのテストはかなり難しかった。",
+          "distractors_ja": [
+            "わずかに",
+            "極端に",
+            "全く"
+          ]
+        },
+        {
+          "id": "adv_069",
+          "word": "fluently",
+          "meaning_ja": "流暢に",
+          "example_en": "She speaks French fluently.",
+          "example_ja": "彼女はフランス語を流暢に話す。",
+          "distractors_ja": [
+            "たどたどしく",
+            "静かに",
+            "急いで"
+          ]
+        },
+        {
+          "id": "adv_070",
+          "word": "formally",
+          "meaning_ja": "正式に",
+          "example_en": "The agreement was formally signed yesterday.",
+          "example_ja": "その合意は昨日正式に署名された。",
+          "distractors_ja": [
+            "非公式に",
+            "急いで",
+            "偶然に"
+          ]
+        },
+        {
+          "id": "adv_071",
+          "word": "freely",
+          "meaning_ja": "自由に",
+          "example_en": "You can freely choose your own topic.",
+          "example_ja": "自分のテーマを自由に選ぶことができる。",
+          "distractors_ja": [
+            "制限されて",
+            "強制的に",
+            "たまに"
+          ]
+        },
+        {
+          "id": "adv_072",
+          "word": "frankly",
+          "meaning_ja": "率直に言うと",
+          "example_en": "Frankly, I don't think this plan will work.",
+          "example_ja": "率直に言うと、この計画はうまくいかないと思う。",
+          "distractors_ja": [
+            "曖昧に",
+            "礼儀正しく",
+            "秘密に"
+          ]
+        },
+        {
+          "id": "adv_073",
+          "word": "generally",
+          "meaning_ja": "一般的に",
+          "example_en": "Generally, prices are higher in the city center.",
+          "example_ja": "一般的に、市の中心部の方が価格は高い。",
+          "distractors_ja": [
+            "決して",
+            "まれに",
+            "個別に"
+          ]
+        },
+        {
+          "id": "adv_074",
+          "word": "genuinely",
+          "meaning_ja": "心から、本当に",
+          "example_en": "She was genuinely surprised by the news.",
+          "example_ja": "彼女はその知らせに心から驚いた。",
+          "distractors_ja": [
+            "表面的に",
+            "わずかに",
+            "偶然に"
+          ]
+        },
+        {
+          "id": "adv_075",
+          "word": "gently",
+          "meaning_ja": "優しく",
+          "example_en": "He gently placed the baby in the crib.",
+          "example_ja": "彼は赤ちゃんを優しくベビーベッドに置いた。",
+          "distractors_ja": [
+            "乱暴に",
+            "急いで",
+            "強く"
+          ]
+        },
+        {
+          "id": "adv_076",
+          "word": "greatly",
+          "meaning_ja": "大いに",
+          "example_en": "The new policy greatly improved efficiency.",
+          "example_ja": "新しい方針は効率を大いに改善した。",
+          "distractors_ja": [
+            "わずかに",
+            "少しも",
+            "全く"
+          ]
+        },
+        {
+          "id": "adv_077",
+          "word": "hardly",
+          "meaning_ja": "ほとんど~ない",
+          "example_en": "I hardly know anyone at this party.",
+          "example_ja": "このパーティーで知っている人はほとんどいない。",
+          "distractors_ja": [
+            "よく",
+            "いつも",
+            "完全に"
+          ]
+        },
+        {
+          "id": "adv_078",
+          "word": "heavily",
+          "meaning_ja": "重く、激しく",
+          "example_en": "It rained heavily throughout the night.",
+          "example_ja": "一晩中激しく雨が降った。",
+          "distractors_ja": [
+            "わずかに",
+            "静かに",
+            "ゆっくり"
+          ]
+        },
+        {
+          "id": "adv_079",
+          "word": "honestly",
+          "meaning_ja": "正直に言うと",
+          "example_en": "Honestly, I forgot about the meeting.",
+          "example_ja": "正直に言うと、その会議のことを忘れていた。",
+          "distractors_ja": [
+            "曖昧に",
+            "こっそり",
+            "偶然に"
+          ]
+        },
+        {
+          "id": "adv_080",
+          "word": "hopefully",
+          "meaning_ja": "願わくは",
+          "example_en": "Hopefully, the weather will be nice tomorrow.",
+          "example_ja": "願わくは、明日の天気が良いといいのですが。",
+          "distractors_ja": [
+            "絶望的に",
+            "決して",
+            "確実に"
           ]
         }
       ]
